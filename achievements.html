@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Achievements</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* { font-family: 'Inter', sans-serif; }
+</style>
+
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+
+<!-- HEADER -->
+<header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
+
+        <div class="flex items-center gap-10">
+            <a href="index.html" class="text-2xl font-bold text-indigo-600">My system</a>
+
+            <!-- КАПСУЛА -->
+            <div class="flex bg-gray-100 rounded-3xl p-1.5 text-sm font-medium">
+
+                <a href="index.html" class="px-8 py-3 rounded-3xl text-gray-600 hover:text-gray-900">
+                    My systems
+                </a>
+
+                <a href="message.html" class="px-8 py-3 rounded-3xl text-gray-600 hover:text-gray-900">
+                    Message
+                </a>
+
+                <a href="achievements.html" class="px-8 py-3 rounded-3xl bg-white shadow-sm font-semibold text-gray-900">
+                    achievements
+                </a>
+
+                <a href="profile.html" class="px-8 py-3 rounded-3xl text-gray-600 hover:text-gray-900">
+                    profile
+                </a>
+
+            </div>
+        </div>
+
+        <!-- USER -->
+        <div class="flex items-center bg-white rounded-3xl shadow-sm border px-5 py-2 gap-3">
+            <div class="w-9 h-9 bg-indigo-600 text-white rounded-2xl flex items-center justify-center font-semibold">
+                C
+            </div>
+
+            <div>
+                <div class="font-semibold text-sm">Sara</div>
+                <div class="flex items-center text-emerald-500 text-xs">
+                    <div class="w-2 h-2 bg-emerald-500 rounded-full mr-1"></div>
+                    Online
+                </div>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<!-- CONTENT -->
+<div class="max-w-5xl mx-auto px-8 py-10">
+
+    <h1 class="text-3xl font-bold mb-10">Achievements</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div class="bg-white rounded-3xl p-8 text-center hover:bg-gray-50 transition">
+            <div class="text-5xl mb-4">🏆</div>
+            <h3 class="font-semibold text-lg">First Task Completed</h3>
+            <p class="text-sm text-gray-500 mt-2">Вы выполнили первое задание</p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 text-center hover:bg-gray-50 transition">
+            <div class="text-5xl mb-4">🔥</div>
+            <h3 class="font-semibold text-lg">Streak 7 days</h3>
+            <p class="text-sm text-gray-500 mt-2">7 дней подряд решаете задания</p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 text-center hover:bg-gray-50 transition">
+            <div class="text-5xl mb-4">📚</div>
+            <h3 class="font-semibold text-lg">Smart Contract Beginner</h3>
+            <p class="text-sm text-gray-500 mt-2">Начали изучение Solidity</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
